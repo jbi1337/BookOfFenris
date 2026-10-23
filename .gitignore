@@ -1,0 +1,9 @@
+/backups/
+/node_modules/
+/*.png
+/test-results.json
+/live-verification.json
+*.log
+.env
+.env.*
+!.env.example
