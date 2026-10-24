@@ -2,6 +2,12 @@
 
 Playable 3D opening prototype. The user authors the story.
 
+## Start here for another session
+
+Read [Fenris and his world — lore handoff](docs/FENRIS-AND-WORLD.md) for the opening facts, Lupera identity, characterization, setting, era boundaries, and source provenance. It is a curated summary of the author's Valora archive, with later lore clearly separated from Fenris's knowledge around 1468 DR.
+
+The author's current visual priority is the character's anatomy and model quality, rather than additional texture detail. The existing model is a prototype; do not treat it as the final visual reference.
+
 ## Authoritative facts
 
 - Fenris is a large Lupera.
@@ -22,7 +28,7 @@ The attached `01-The Story Begins.txt` inspires a forest awakening and voices. I
 
 `assets/fenris-sculpt.json` contains the prebuilt indexed geometry, normals, UVs, weights, and skeleton. Regenerate with `node sculpt-model.cjs`, then check with `node validate-model.cjs`. No remeshing happens in the browser. `model-study.html` provides rotation, walking, and an untextured shape view to review anatomy independently of the forest lighting. `inspect-model.cjs` captures front, side, rear, and three-quarter views.
 
-`forest.js` creates the environment. Fur, bark, and leaf-litter image assets were generated with built-in image generation; exact prompts and local asset paths are recorded in `art-manifest.json`. The supplied character image guides the model and is not published. Valora documents and royal portraits are not published.
+`forest.js` creates the environment. Fur, bark, and leaf-litter image assets were generated with built-in image generation; exact prompts and local asset paths are recorded in `art-manifest.json`. The supplied character image guides the model and is not published. The full Valora manuscripts and royal portraits are not included. The repository contains only the curated lore handoff linked above; it is not part of the public game deployment.
 
 ## Running locally
 
